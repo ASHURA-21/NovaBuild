@@ -22,3 +22,7 @@ document.getElementById('scrollDownBtn').addEventListener('click', () => {
     });
   });
 
+  function scrollToSection() {
+    document.getElementById("target-section").scrollIntoView({ behavior: "smooth" });
+  }
+  
