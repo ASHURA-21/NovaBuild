@@ -9,68 +9,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <div class="container">
-      <form class="row g-3" style="width: 800px; padding: 30px;  margin-left: auto; margin-right: auto; margin-top:5px; border:solid white; border-radius: 30px; height: 900px;">
-        <div class="col-sm-12 col-md-4">
-          <label for="validationDefault01" class="form-label">First name</label>
-          <input type="text" class="form-control" id="validationDefault01" required>
-        </div>
-        <div class="col-md-4">
-          <label for="validationDefault02" class="form-label">Last name</label>
-          <input type="text" class="form-control" id="validationDefault02" required>
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-          <div class="col g-3">
-            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="000-000-000" required>
-          </div>
-          <div class="form-floating">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
-              <option value="1">Architecture</option>
-              <option value="2">Plumbing</option>
-              <option value="3">Contractor</option>
-            </select>
-            <label for="floatingSelect">Please choose which service you would like us to perform?</label>
-          </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label" required>Job description</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div> 
-        <div class="col-md-6">
-          <label for="validationDefault03" class="form-label">City</label>
-          <input type="text" class="form-control" id="validationDefault03" required>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip" required>
-        </div>
-        <div class="mb-3">
-          <label for="formGroupExampleInput" class="form-label">When will you be available for a call?</label>
-          <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder" required>
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-            <label class="form-check-label" for="invalidCheck2">
-              Agree to terms and conditions
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit" onclick="save()" id="home-btn">Submit form</button>
-          <button class="btn btn-primary text-light"  id="home-btn"><a href="/build.html" class="text-light text-decoration-none">Go Back</a></button>
-        </div>
-      </form>
-    </div> -->
-
-
-    <div class="container">
+  <h3>What job do you want to hire us for?</h3>
+    <div class="container mt-4">
       <div class="row">
         <form>
-          <div class="col-sm-12 col-md-4 col-lg-12 mb-3">
+          <div class="col-sm-12 col-md-4 col-lg-12 mb-3 mt-3">
             <label for="exampleFirstname1" class="form-label">First Name</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your info with anyone else.</div>
@@ -100,7 +43,39 @@
             <label for="floatingSelect">Please choose which service you would like us to perform?</label>
           </div>
 
+          <div class="col-sm-12 col-md-4 col-lg-12 mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label" required>Job description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div> 
 
+          <div class="col-sm-12 col-md-4 col-lg-12 mb-3">
+            <label for="validationDefault03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationDefault03" required>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-12 mb-3">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" required>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-12 mb-3">
+            <label for="formGroupExampleInput" class="form-label">When will you be available for a call?</label>
+            <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder" required>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-12 mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          
+          <div class="col-12 mb-2">
+            <button class="btn btn-primary" type="submit" onclick="save()" id="home-btn">Submit form</button>
+            <button class="btn btn-primary text-light"  id="home-btn"><a href="/build.html" class="text-light text-decoration-none">Go Back</a></button>
+          </div>
         </form>
       </div>
     </div>
