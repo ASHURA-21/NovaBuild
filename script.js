@@ -1,27 +1,17 @@
-document.getElementById('scrollDownBtn').addEventListener('click', () => {
-    document.getElementById('targetSection').scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
+// Show button when scrolled down
+window.onscroll = function () {
+  const btn = document.getElementById("scrollTopBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
 
-
-  const scrollTopBtn = document.getElementById("toTop");
-
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-      scrollTopBtn.style.display = "block";
-    } else {
-      scrollTopBtn.style.display = "none";
-    }
-  });
-
-  scrollTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-
+// Scroll to top smoothly
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
   function scrollToSection() {
     document.getElementById("target-section").scrollIntoView({ behavior: "smooth" });
   }
