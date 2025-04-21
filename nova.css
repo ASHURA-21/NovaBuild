@@ -22,6 +22,12 @@ body{
   }
 }
 
+@media (max-width:405px){
+  body {
+    background-image: linear-gradient(rgba(32, 28, 28, 0.6)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+  }
+}
+
 @media (min-width: 769px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6)) url(images/beautiful-view-construction-site-city-sunset.jpg);
@@ -251,6 +257,18 @@ font-weight: 700;
   }
 
   @media (max-width: 768px){
+    .section{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/scott-blake-x-ghf9LjrVg-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      image-rendering: auto;
+      width:100%;
+      height: 100%;
+    }
+  }
+
+  @media (max-width: 405px){
     .section{
       background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/scott-blake-x-ghf9LjrVg-unsplash.jpg);
       background-size: cover;
