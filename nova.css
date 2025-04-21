@@ -364,13 +364,6 @@ font-weight: 700;
   
   @media screen and (max-width: 768px) {
     #scrollTopBtn {
-      display: none;
+      display: none !important;
     }
   }
-
-  @media screen and (max-width: 320px) {
-    #scrollTopBtn {
-       display: none;
-    }
-  }
-  
