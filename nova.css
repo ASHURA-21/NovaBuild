@@ -323,7 +323,7 @@ font-weight: 700;
     padding: 2rem;
   }
   
-  #toTop {
+  #scrollTopBtn {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -338,6 +338,10 @@ font-weight: 700;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     transition: opacity 0.3s ease;
+  }
+
+  #scrollTopBtn:hover{
+    background-color: #ffcc00;
   }
   
   @media screen and (max-width: 768px) {
