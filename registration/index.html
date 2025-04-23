@@ -54,67 +54,11 @@
         </div>
        </div>
        <div class="row mb-3">
-        <label class="col-sm-3 col-form-label" for="emailAddress">Date Of Birth:</label>
-        <div class="col-sm-2">
-            <select class="form-select mb-3" required id="dob1">
-                <option value="">Date</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">21</option>
-                <option value="22">22</option>
-                <option value="23">23</option>
-                <option value="24">24</option>
-                <option value="25">25</option>
-                <option value="26">26</option>
-                <option value="27">27</option>
-                <option value="28">28</option>
-                <option value="29">29</option>
-                <option value="30">30</option>
-                <option value="31">31</option>
-            </select>
+        <label for="formGroupExampleInput" class="col-sm-3 form-label">Date Of Birth</label>
+        <div class="col-sm-9">
+            <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder" required>
         </div>
-        <div class="col-sm-3 mb-3">
-            <select class="form-select" required  id="dob2">
-                <option value="">Month</option>
-                <option value="1">January</option>
-                <option value="2">February</option>
-                <option value="3">March</option>
-                <option value="4">April</option>
-                <option value="5">May</option>
-                <option value="6">June</option>
-                <option value="7">July</option>
-                <option value="8">August</option>
-                <option value="9">September</option>
-                <option value="10">October</option>
-                <option value="11">November</option>
-                <option value="12">December</option>
-            </select>
-        </div>
-        <div class="col-sm-3 mb-3">
-            <select class="form-select" required  id="dob3">
-                <option value="">Year</option>
-                <option value="">2025</option>
-            </select>
-        </div>
-       </div>
+      </div>
       <div class="row mb-3">
         <label class="col-sm-3 col-form-label" for="Address">Postal Address:</label>
         <div class="col-sm-9">
@@ -157,46 +101,5 @@
         </div>
       </form>
     </div>
-
-    <script>
-        function save(){
-    let first = document.getElementById('firstname').value;
-    let second = document.getElementById('lastname').value;
-    let third = document.getElementById('email').value;
-    let fourth = document.getElementById('dob1').value;
-    let fifth = document.getElementById('dob2').value;
-    let sixth = document.getElementById('dob3').value;
-    let seventh = document.getElementById('PostalAddress').value;
-    let eight = document.getElementById('ZipCode').value;
-    let nine = document.getElementById('RadioMale').value;
-    let ten = document.getElementById('RadioFemale').value;
-    let eleven = document.getElementById('Agree').value;
-    
-    let data = {
-      first_name: first,
-      last_name: second,
-      phone_number: third,
-      service: fourth,
-      job_description: fifth,
-      city: sixth,
-      zip: seventh,
-      date: eight,
-      Gender: nine, 
-      Gender: nine,
-      terms: eleven,
-    }
-    // data.push(first)
-
-    
-    let data_string = JSON.stringify(data);
-    
-    let file = new Blob([data_string],{type:"text/plain"});
-    let anchor = document.createElement('a');
-    anchor.href = URL.createObjectURL(file);
-    anchor.download = "save.txt";
-    anchor.click();
-    console.log('your data has been saved')
-  }
-    </script>
 </body>
 </html>
