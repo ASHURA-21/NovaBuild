@@ -28,7 +28,13 @@ body{
   }
 }
 
-@media (min-width: 769px) {
+@media (max-width:320px){
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+  }
+}
+
+/* @media (min-width: 769px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
   }
@@ -38,7 +44,7 @@ body{
   body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
   }
-}
+} */
 
   .pic {
     width: 100px;
