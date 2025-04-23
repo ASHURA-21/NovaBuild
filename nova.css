@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap');
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/beautiful-view-construction-site-city-sunset.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,25 +18,25 @@ body{
 
 @media (max-width: 768px) {
   body {
-    background-image: linear-gradient(rgba(32, 28, 28, 0.6)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
   }
 }
 
 @media (max-width:405px){
   body {
-    background-image: linear-gradient(rgba(32, 28, 28, 0.6)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
   }
 }
 
 @media (min-width: 769px) {
   body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
   }
 }
 
 @media (max-width: 414px){
   body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
   }
 }
 
@@ -95,6 +95,7 @@ nav{
     color: white;
     position: sticky;
     top: 0;
+    line-height: 2em  ;
 }
 
 /* #081b29 */
@@ -279,6 +280,17 @@ font-weight: 700;
       height: 100%;
     }
   }
+
+  @media (min-width: 768px) {
+    .more-text {
+      display: inline !important;
+    }
+    .read-more-link {
+      display: none;
+    }
+  }
+  
+  
 
   .scroll-down {
     font-size: 2rem;

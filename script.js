@@ -15,4 +15,22 @@ function scrollToTop() {
   function scrollToSection() {
     document.getElementById("target-section").scrollIntoView({ behavior: "smooth" });
   }
-  
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const readMoreLinks = document.querySelectorAll('.read-more-link');
+
+    readMoreLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const moreText = this.previousElementSibling.querySelector('.more-text');
+        
+        if (moreText.hasAttribute('hidden')) {
+          moreText.removeAttribute('hidden');
+          this.textContent = 'Read less';
+        } else {
+          moreText.setAttribute('hidden', true);
+          this.textContent = 'Read more';
+        }
+      });
+    });
+  });
