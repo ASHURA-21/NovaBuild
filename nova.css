@@ -153,6 +153,7 @@ font-weight: 700;
     }
 }
 
+
 @media(max-width:320px) {
   #cards{
       text-align: center;
@@ -166,8 +167,6 @@ font-weight: 700;
 
  .card{
     box-shadow: 0 0 10px #266867;
-
-
 }
 .card {
      cursor: pointer;
