@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap');
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(resources/beautiful-view-construction-site-city-sunset.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body{
 
 @media (max-width: 768px) {
   body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(resources/beautiful-view-construction-site-city-sunset.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body{
 
 @media (max-width:405px){
   body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(resources/beautiful-view-construction-site-city-sunset.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body{
 
 @media (max-width:320px){
   body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(images/beautiful-view-construction-site-city-sunset.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) url(resources/beautiful-view-construction-site-city-sunset.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ font-weight: 700;
   }
   
   .section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/scott-blake-x-ghf9LjrVg-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(resources/scott-blake-x-ghf9LjrVg-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -282,7 +282,7 @@ font-weight: 700;
 
   @media (max-width: 320px){
     .section{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/scott-blake-x-ghf9LjrVg-unsplash.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(resources/scott-blake-x-ghf9LjrVg-unsplash.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -294,7 +294,7 @@ font-weight: 700;
 
   @media (max-width: 768px){
     .section{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/scott-blake-x-ghf9LjrVg-unsplash.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(resources/scott-blake-x-ghf9LjrVg-unsplash.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -306,7 +306,7 @@ font-weight: 700;
 
   @media (max-width: 405px){
     .section{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/scott-blake-x-ghf9LjrVg-unsplash.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(resources/scott-blake-x-ghf9LjrVg-unsplash.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
